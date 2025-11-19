@@ -7,3 +7,6 @@ def solution(numbers, direction):
         del numbers[0]
         
     return numbers
+
+#슬라이싱 활용
+#[ numbers[-1] + numbers[:-1] for i in numbers if direction == 'right' else numbers[1:] + numbers[0]]
