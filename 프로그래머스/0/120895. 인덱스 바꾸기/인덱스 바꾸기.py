@@ -10,3 +10,11 @@ def solution(my_string, num1, num2):
         else:
             answer += my_string[i]
     return answer
+
+
+#문자열의 경우. 할당되지 않음
+#리스트는 할당이 됨!
+#따라서 자료형을 리스트로 변환해서 사용하자.
+#my_string = list(my_string)
+#my_string[num1], my_string[num2] = my_string[num2], my_string[num1]
+#''.join(my_string)
