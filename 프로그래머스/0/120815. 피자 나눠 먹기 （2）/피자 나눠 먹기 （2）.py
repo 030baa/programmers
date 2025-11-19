@@ -9,5 +9,5 @@ def solution(n):
 '''
 while 6 * answer % n:
     answer += 1
-    return answer
+return answer
     '''
