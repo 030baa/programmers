@@ -4,3 +4,6 @@ def solution(s):
         if s.count(i) ==1:
             answer += i
     return "".join(sorted(answer))
+
+
+#''.join([i for i in s if s.count(i)==1])
