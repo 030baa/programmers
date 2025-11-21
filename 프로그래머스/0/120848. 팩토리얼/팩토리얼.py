@@ -5,3 +5,5 @@ def solution(n):
             d *= s
         if d > n:
             return i -1 
+        
+    #다른 풀이 생각해보기
