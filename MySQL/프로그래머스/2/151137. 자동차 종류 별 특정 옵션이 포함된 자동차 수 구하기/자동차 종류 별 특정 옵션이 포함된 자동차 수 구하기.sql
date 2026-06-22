@@ -1,6 +1,6 @@
--- 코드를 입력하세요
-SELECT CAR_TYPE, COUNT(*) AS "CARS"
+-- 정규표현식 : 텍스트 안에 특정 텍스트 포함하는 데이터의 개수 세기
+SELECT CAR_TYPE, COUNT(*) AS CARS
 FROM CAR_RENTAL_COMPANY_CAR
 WHERE OPTIONS REGEXP "통풍시트|열선시트|가죽시트"
 GROUP BY CAR_TYPE
-ORDER BY CAR_TYPE
+ORDER BY 1;
